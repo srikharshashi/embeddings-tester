@@ -1,0 +1,153 @@
+{
+  "Food & Dining": [
+    "swisscastle bakery",
+    "pineapple cake",
+    "Tibbs Frankie L",
+    "fruit bowl",
+    "swiggy",
+    "paarivar",
+    "Restaurants",
+    "zomato",
+    "food delivery",
+    "chutneys",
+    "dine-out",
+    "dominos",
+    "pizza",
+    "hotel",
+    "lunch",
+    "kinara grand",
+    "dinner",
+    "ameerpet juice point",
+    "pineapple juice",
+    "mandi-biryani",
+    "nani tiffins",
+    "SURUCHI",
+    "chat",
+    "curd",
+    "maharajachat",
+    "samosa",
+    "shawarma",
+    "taaza kitchen",
+    "babai hotel"
+  ],
+
+  "Shopping": [
+    "Flipkart",
+    "trouser",
+    "Amazon",
+    "glasses",
+    "Myntra",
+    "watch",
+    "Shoes",
+    "H&M",
+    "shirt",
+    "meesho",
+    "shadoefax",
+    "blue dart"
+  ],
+
+  "Groceries": [
+    "BigBasket",
+    "potatos",
+    "Kirana store",
+    "hand wash",
+    "Ratnadeep",
+    "oats",
+    "Blinkit",
+    "Milk",
+    "Rice",
+    "zepto",
+    "instamart",
+    "chocolate"
+  ],
+
+  "Health and Wellness": [
+    "Apollo Pharmacy",
+    "medicines",
+    "Doctor fee",
+    "finger treatment",
+    "Gym",
+    "Yoga",
+    "MedPlus",
+    "soorya orthopedic",
+    "xray",
+    "haircut",
+    "facial",
+    "salon",
+    "cutting shop",
+    "facepack"
+  ],
+
+  "Transportation": [
+    "auto",
+    "bus",
+    "Rapido",
+    "mettuguda ride",
+    "Ola",
+    "cab",
+    "Metro",
+    "raidurg",
+    "indian oil",
+    "car Fuel",
+    "HP petrol bunk",
+    "uber"
+  ],
+
+  "Education": [
+    "Tuition",
+    "college",
+    "semister1",
+    "osmania",
+    "Exam fee",
+    "College books",
+    "Course fee",
+    "Library",
+    "udemy:python",
+    "coursera",
+    "system designing"
+  ],
+
+  "Entertainment": [
+    "Netflix",
+    "BookMyShow",
+    "Spotify",
+    "Movie tickets",
+    "goa trip",
+    "road show",
+    "lonavala",
+    "singapore trip",
+    "bowling and gaming"
+  ],
+
+  "Gifts and Donations": [
+    "Charity",
+    "Birthday gift",
+    "Anniversary",
+    "Wedding gift",
+    "Dedeepya's birthday",
+    "parent's anniversary"
+  ],
+
+  "Miscellaneous": [
+    "xerox",
+    "Parking fine",
+    "ATM withdrawal",
+    "Penalty fee",
+    "Temple darshan",
+    "Debit Card Annual Fee 6385",
+    "books",
+    "stationery",
+    "wire",
+    "cables"
+  ],
+
+  "Savings and Investment": [
+    "FD",
+    "SIP",
+    "Stocks",
+    "Mutual funds",
+    "Gold purchase",
+    "RD",
+    "savings"
+  ]
+}

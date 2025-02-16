@@ -1,0 +1,26 @@
+{
+  "models": {
+    "transformer_models": [
+      "minishlab/potion-base-2M","minishlab/potion-base-32M","minishlab/potion-base-8M"
+    ],
+    "default_model": "minishlab/potion-base-2M"
+  },
+  "embedding_settings": {
+    "embeddings_output_dir": "embeddings",
+    "default_embedding_file": "potion-base-2M.json"
+  },
+  "test_data": {
+    "transactions_file": "input/testtxns.json",
+    "categories_file": "input/categories.json"
+  },
+  "output":{
+    "output_file":"output/index.html",
+    "image_storage":"output/images"
+  },
+  "logging": {
+    "log_file": "logs/app.log",
+    "log_level": "INFO",
+    "max_bytes": 1048576,
+    "backup_count": 5
+  }
+}

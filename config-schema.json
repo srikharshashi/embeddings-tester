@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Config Schema",
+  "description": "Schema for config.json to guide users on the structure and values.",
+  "type": "object",
+  "properties": {
+    "models": {
+      "type": "object",
+      "description": "Model configuration settings.",
+      "properties": {
+        "transformer_models": {
+          "type": "array",
+          "description": "List of transformer model identifiers.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "default_model": {
+          "type": "string",
+          "description": "The default model to use."
+        }
+      },
+      "required": ["transformer_models", "default_model"]
+    },
+    "embedding_settings": {
+      "type": "object",
+      "description": "Settings related to embeddings.",
+      "properties": {
+        "embeddings_output_dir": {
+          "type": "string",
+          "description": "Directory to store generated embeddings."
+        },
+        "default_embedding_file": {
+          "type": "string",
+          "description": "Default embedding file name."
+        }
+      },
+      "required": ["embeddings_output_dir", "default_embedding_file"]
+    },
+    "test_data": {
+      "type": "object",
+      "description": "Paths for test data inputs.",
+      "properties": {
+        "transactions_file": {
+          "type": "string",
+          "description": "File containing test transactions."
+        },
+        "categories_file": {
+          "type": "string",
+          "description": "File containing category information."
+        }
+      },
+      "required": ["transactions_file", "categories_file"]
+    },
+    "output": {
+      "type": "object",
+      "description": "Output configuration settings.",
+      "properties": {
+        "output_file": {
+          "type": "string",
+          "description": "Path for the output HTML file."
+        },
+        "image_storage": {
+          "type": "string",
+          "description": "Directory to store output images."
+        }
+      },
+      "required": ["output_file", "image_storage"]
+    },
+    "logging": {
+      "type": "object",
+      "description": "Logging configuration settings.",
+      "properties": {
+        "log_file": {
+          "type": "string",
+          "description": "Path for the log file."
+        },
+        "log_level": {
+          "type": "string",
+          "description": "Logging level (e.g., INFO, DEBUG)."
+        },
+        "max_bytes": {
+          "type": "number",
+          "description": "Maximum size of a log file before rotation occurs."
+        },
+        "backup_count": {
+          "type": "number",
+          "description": "Number of backup log files to keep."
+        }
+      },
+      "required": ["log_file", "log_level", "max_bytes", "backup_count"]
+    }
+  },
+  "required": ["models", "embedding_settings", "test_data", "output", "logging"],
+  "additionalProperties": false
+}
